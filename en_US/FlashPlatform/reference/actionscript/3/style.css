@@ -1,3 +1,7 @@
+#jiveFrame {
+	display: none;
+}
+
 .titleTable{width:100%;}
 .titleTableTitle{padding-left:15px;padding-right:5px;font-size:18px;height:62px;background-image:url(images/titleTableTopION.jpg);background-repeat:repeat-x;}
 .titleTableSearch{font-size:12px;background-image:url(images/titleTableTopION.jpg);background-repeat:repeat-x;width:40%;min-width:277px;width:expression((documentElement.clientWidth < 200) ? "277px":"100%");padding-left:10px;}
