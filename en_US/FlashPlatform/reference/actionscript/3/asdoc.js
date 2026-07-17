@@ -709,7 +709,7 @@ $(".loaderimg").remove()
 }if($(".loadingErrorDiv").length>0){$(".loadingErrorDiv").remove()
 }if($(".loadingMsgDiv").length>0){$(".loadingMsgDiv").remove()
 }$("#content").css("opacity","1")
-}function hasLocalStorage(){return"localStorage" in window
+}function hasLocalStorage(){return false;
 }function storePage(a,b){if(!hasLocalStorage()){return false
 }try{localStorage.setItem(a,b)
 }catch(c){localStorage.clear()
