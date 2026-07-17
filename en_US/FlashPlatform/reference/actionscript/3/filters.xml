@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><filters>
     <runtimes>
         <name>Runtimes</name>
-        <runtime name="air" default="32.0" heading="AIR" topversion="32.0">
+        <runtime name="air" default="none" heading="AIR" topversion="32.0">
             <versions>
                 <version name="32.0">
                     <match value="air::"/>
@@ -1502,7 +1502,7 @@
                 </version>
             </versions>
         </runtime>
-        <runtime name="flashlite" default="4" heading="Flash Lite" topversion="4">
+        <runtime name="flashlite" default="none" heading="Flash Lite" topversion="4">
             <versions>
                 <version name="4">
                     <match value="Lite::4"/>
@@ -1517,7 +1517,7 @@
 
     <products>
         <name>Products</name>
-        <product name="flex" default="4.6" heading="Flex" topversion="4.6">
+        <product name="flex" default="none" heading="Flex" topversion="4.6">
             <versions>
                 <version name="4.6">
                     <match value="flex::"/>
@@ -1550,7 +1550,7 @@
                 </version>
             </versions>
         </product>
-        <product name="flash" default="cs6" heading="Flash Professional" topversion="cs6">
+        <product name="flash" default="none" heading="Flash Professional" topversion="cs6">
             <versions>
                 <version name="cs6">
                     <match value="flash::"/>
